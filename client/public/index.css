@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+:root {
+    /* 
+    Pastel Peach 247, 223, 194
+    Pastel Mint 173, 208, 179 
+    */
+    --primary-theme-rgb: 173, 208, 179;
+    --primary-theme-color: rgb(var(--primary-theme-rgb));
+    --primary-theme-opaque: rgba(var(--primary-theme-rgb), 0.5);
+    --primary-white: #fff;
+    --secondary-white: #fefefe; 
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+

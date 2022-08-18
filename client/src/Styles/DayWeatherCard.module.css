@@ -1,0 +1,30 @@
+.weatherCard {
+    max-height: 13rem;
+    min-width: 12rem;
+    background-color: var(--secondary-white);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.weatherCard p {
+    font-size: 0.9rem;
+}
+
+.weatherCard h4 {
+    font-size: 1.1rem;
+}
+
+.weatherCard h5 {
+    font-size: 1rem;
+}
+
+.weatherCard i {
+    color: var(--primary-theme-color);
+    font-size: 3rem;
+}
+
+.dark.weatherCard{
+    background-color: #222;
+    color: var(--secondary-white);
+}

@@ -1,0 +1,39 @@
+.links {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+}
+
+.links i {
+    color: #222; 
+    font-size: 1.2rem;
+}
+
+.dark.links i {
+    color: var(--primary-theme-color);
+}
+
+.links button {
+    border: none;
+    border-radius: 50%;
+    width: 2rem;
+    height:2rem;
+    cursor: pointer;
+    background-color: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(1,1);
+}
+
+.links button:hover{
+    background-color: var(--primary-theme-color);
+    transform: scale(1.1, 1.1);
+}
+
+.dark.links button:hover {
+    background-color: rgba(45, 45, 45, 0.5);
+    transform: scale(1.1, 1.1);
+}

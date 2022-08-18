@@ -1,0 +1,50 @@
+.surround {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.weatherApp {
+    width: 95%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column; 
+}
+
+.forecast {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    color: #222; 
+}
+
+.weatherApp button {
+    margin: 1rem;
+    padding-inline: 1rem;
+    background-color: #222;
+    color: var(--primary-white);
+    border-radius: 10%;
+    max-width: fit-content;
+}
+
+.weatherApp button:hover {
+    opacity: 90%;
+    cursor: pointer;
+}
+
+.wrapDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--primary-white);
+}
+
+.wrapDiv h3 {
+    margin-bottom: 2rem;
+}
+
+.dark.wrapDiv {
+    background-color: rgb(25,25,25);
+}

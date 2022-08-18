@@ -1,0 +1,15 @@
+.dashboard {
+    display: grid;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    height: 100vh;
+    border-top-left-radius: 5%;
+    border-bottom-left-radius: 5%;
+    grid-template-rows: 4rem auto;
+    background-color: #eeeeee;
+}
+
+.dashboard.dark {
+    background-color: rgb(19,19,19);
+    color: #fefefe;
+}
